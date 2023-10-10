@@ -1,0 +1,28 @@
+/* cate */
+.cate { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-around; border-bottom: 1px solid #eee; }
+/* //cate */
+
+/* cateWrap */
+.cateWrap {}
+.cateWrap .cateList { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; margin: 10px 0 0; }
+.cateWrap .cateList li { margin-right: 10px; margin-bottom: 10px; padding: 2px 16px; font-size: 14px; background-color: #fff; border: 1px solid #484848; border-radius: 30px; }
+.cateWrap .cateList :global li.on { background-color: #20C997; color: #fff; }
+.cateWrap .cateList :global li.on a { color: #fff; }
+/* //cateWrap */
+
+/* listWrap */
+.listWrap {}
+.listWrap .row { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start; margin: 10px -5px; }
+.listWrap .row .col { display: inline-block; width: 25%; }
+.listWrap .row .col .item { display: flex; justify-content: center; align-items: center; flex-direction: column; box-shadow: 0 0 15px 2px rgb(0 0 0 / 0.1), 0 0 15px 2px rgb(0 0 0 / 0.1); margin: 5px; padding: 5px; border-radius: 4px; }
+.listWrap .row .col .item .title { font-size: 16px; font-weight: 700; color: #484848; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.listWrap .row .col .item .subTitle { font-size: 12px; font-weight: 700; color: #484848; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.listWrap .row .col .item .imgWrap { position: relative; margin: 10px 0 5px; }
+.listWrap .row .col .item .imgWrap .img { width: 85px; height: 85px; border: 1px solid #bbb; border-radius: 100%; overflow: hidden; }
+.listWrap .row .col .item .imgWrap .img img { display: block; width: 100%; height: 100%; }
+.listWrap .row .col .item .imgWrap .label { position: absolute; right: 0; bottom: 0; width: 27px; height: 27px; border-radius: 100%; background-color: #333; }
+.listWrap .row .col .item .nickName { font-size: 12px; font-weight: 700; color: #484848; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.listWrap .row .col .item .intro { font-size: 12px; font-weight: 400; color: #484848; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.listWrap .row .col .item .btnWrap { display: block; width: 100%; margin-top: 5px; }
+.listWrap .row .col .item .btnWrap .btn { width: 100%; border: 1px solid #20C997; border-radius: 5px; font-size: 12px; font-weight: 700; padding: 2.5px 0; color: #20C997; }
+/* //listWrap */

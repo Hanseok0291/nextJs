@@ -1,0 +1,6 @@
+.header { display: flex; align-items: center; justify-content: space-around; height: 60px;  border-bottom: 1px solid #eee; }
+.header button { margin-left: 10px; }
+.header button.search { margin-left: auto; }
+.header .headerWrap { display: flex; }
+/* .headerWrap button.menu { margin-left: auto; } */
+.logo { display: inline-block; width: 30px; height: 30px; background-color: #20C997; border-radius: 100%; }

@@ -1,0 +1,4 @@
+.footer { display: flex; align-items: center; justify-content: center; }
+.footer button { margin: 0 5px; }
+.footerWrap { display: flex; justify-content: center; }
+.logo { display: inline-block; }

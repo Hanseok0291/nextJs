@@ -1,0 +1,6 @@
+/* layout */
+.container { position: relative; clear: both; width: 100%; margin: 0 auto; padding-left: 20px; padding-right: 20px; min-width: 280px; max-width: 700px; }
+.container > h1 { margin: 10px 0 0; }
+
+/* btn */
+.btn { display: inline-block; border: 0; border-radius: 4px; }

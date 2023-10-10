@@ -1,0 +1,5 @@
+.age {}
+.ageWrap { display: flex; align-items: center;justify-content: space-between; }
+.ageWrap input[type="text"] { height: 40px; }
+
+.resultWrap {}
